@@ -1,4 +1,3 @@
-import React from "react"; // 17之后就不需要引入了
 import { memo } from "react";
 import type { FC, ReactNode } from "react";
 // FC 是 Function Component 的缩写（函数组件）
@@ -7,8 +6,8 @@ interface IProps{
     children?: ReactNode
 }
 
-const Discover: FC<IProps> = () => {
-    return <div>Discover</div>
+const Focus: FC<IProps> = () => {
+    return <div>Focus</div>
 };
 
-export default memo(Discover);
+export default memo(Focus);
